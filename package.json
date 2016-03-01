@@ -1,0 +1,27 @@
+{
+  "name": "react-safari",
+  "version": "1.0.0",
+  "description": "Practise project for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/app.js -t babelify --outfile public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kbeathanabhotla/react-safari.git"
+  },
+  "author": "Sai Krishna Kishore <beathanabhotla.kishore@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kbeathanabhotla/react-safari/issues"
+  },
+  "homepage": "https://github.com/kbeathanabhotla/react-safari#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babelify": "^6.4.0"
+  }
+}
